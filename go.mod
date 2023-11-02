@@ -1,13 +1,11 @@
-module gorm.io/driver/sqlite
+module github.com/ingwalt/go-sqlite
 
 go 1.20
 
-require (
-	github.com/mattn/go-sqlite3 v1.14.17
-	gorm.io/gorm v1.25.2-0.20230530020048-26663ab9bf55
-)
+require gorm.io/gorm v1.25.2-0.20230530020048-26663ab9bf55
 
 require (
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
+	github.com/mutecomm/go-sqlcipher/v4 v4.4.2
 )
